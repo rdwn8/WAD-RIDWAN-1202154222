@@ -10,11 +10,11 @@
 
     <title>Booking</title>
   </head>
-  
+
   <body>
   <div class="row">
-  <div class="col-sm-6">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="col-sm-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand" href="Home.php">EAD</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,16 +34,15 @@
 </body>
 <body>
     <!--Formulir--->
-
- <h1>Formulir Booking</h1>
+ <h1 style="center" >Formulir Booking</h1>
     <div class="container">
-    <div class="row align-items-start">
+    <div class="row">
     <div class="form">
-
+    <div class="col-sm-12">
     <form>
                            <div class="form-group">
                             <label for="nama" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">Nama</label>
-                            <input type="text" name="fname">
+                            <input type="text" name="fname" class="form-control">
                            </div>
 
                             <div class="form-group">
@@ -53,7 +52,7 @@
 
                             <div class="form-group">
                                 <label for="duration">Duration</label>
-                                <input type="number" class="form-control" id="inputnama"  placeholder="">
+                                <input type="number" class="form-control" id="duration"  placeholder="">
                             </div>
 
                             <p>Add Service(s)</p>
@@ -72,16 +71,19 @@
                                 <label for="telepon">Phone</label>
                                 <input type="name" class="form-control" id="phone"  placeholder="">
                             </div>
-                            
+
                             <a href="mybooking.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Submit</a>
      </form>
-</div>
-                    <div class="row align-items-end">
-                    <div class="card" style="width: 18rem;">
-                    <img src="img/room1.jpg" class="card-img-left" alt="...">
-                    </div>
-   </div>                   
    </div>
+ </div>
+                <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                <img src="img/room2.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+</div>
+</div>
+
 
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -10,11 +10,11 @@
 
     <title>Booking</title>
   </head>
-  
+
   <body>
   <div class="row">
-  <div class="col-sm-6">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="col-sm-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand" href="Home.php">EAD</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -51,16 +51,16 @@
       <th scope="row"><?php
       echo(rand() . "<br>");?></th>
       <td><?php
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // collect value of input field
-            $name = $_POST['fname'];
-            if (empty($name)) {
-                echo "Name is empty";
-            } else {
-                echo $name;
-            }
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // collect value of input field
+        $name = $_POST['fname'];
+        if (empty($name)) {
+          echo "Name is empty";
+        } else {
+          echo $name;
         }
-        ?></td>
+      }
+      ?></td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>

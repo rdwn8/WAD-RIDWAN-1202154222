@@ -12,8 +12,8 @@
   </head>
   <body>
   <div class="row">
-  <div class="col-sm-6">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="col-sm-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand" href="Home.php">EAD</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,14 @@
 </nav>
 </body>
 <body>
+
 <!--Booking --->
   <!--Card1-->
-  <div class="row">
-  <div class="col align-items-start">
+    <div class="album py-5 bg-light">
+    <div class="container">
+
+    <div class="row">
+  <div class="col-md-4">
   <div class="card text-center" style="width: 18rem;">
   <img class="card-img-top" src="img/room1.jpg" alt="Card image cap">
   <div class="card-body">
@@ -53,7 +57,7 @@
 </div>
 </div>
 
-    <div class="col align-items-center">
+    <div class="col-md-4">
     <div class="card text-center" style="width: 18rem;">
     <img class="card-img-top" src="img/room2.jpg" alt="Card image cap">
     <div class="card-body">
@@ -71,8 +75,8 @@
     </div>
     </div>
     </div>
-  
-  <div class="col align-items-end">
+
+    <div class="col-md-4">
   <div class="card text-center" style="width: 18rem;">
   <img class="card-img-top" src="img/room3.jpg" >
   <div class="card-body">
@@ -85,17 +89,17 @@
     <li class="list-group-item">2 Bathroom with hot water</li>
     <li class="list-group-item">1 Television and Wi-Fi</li>
     <li class="list-group-item">1 Workroom</li>
-</ul>
+  </ul>
   <div class="card-body">
   <a href="#" class="btn btn-primary">Book Now</a>
   </div>
-</div>
+  </div>
+  </div>
   </div>
 
 </div>
- </body>
-  
-</body>
+</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
