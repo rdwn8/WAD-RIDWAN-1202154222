@@ -41,8 +41,8 @@
     <div class="col-sm-12">
     <form>
                            <div class="form-group">
-                            <label for="nama" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">Nama</label>
-                            <input type="text" name="fname" class="form-control">
+                            <label for="nama" method="get" action="<?php echo $_SERVER['PHP_SELF'];?>">Nama</label>
+                            <input type="text" name="name" class="form-control">
                            </div>
 
                             <div class="form-group">
@@ -72,7 +72,7 @@
                                 <input type="name" class="form-control" id="phone"  placeholder="">
                             </div>
 
-                            <a href="mybooking.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Submit</a>
+                            <a href="php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Submit</a>
      </form>
    </div>
  </div>
